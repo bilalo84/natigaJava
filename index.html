@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/index.css" />
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row" id="myData">
+        <input
+          class="form-control my-2"
+          type="text"
+          placeholder="اكتب الاسم الثلاثي"
+          id="NameID"
+        />
+        <button onclick="getMark ()" class="btn btn-info my-2 w-25">
+          النتيجة
+        </button>
+
+        <table class="table text-center table-group-divider">
+          <thead>
+            <tr>
+            <td>النتيجة</td>
+              <td>العلامة</td>
+              <td>الاسم</td>
+            </tr>
+          </thead>
+          <tbody id="getData">
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
